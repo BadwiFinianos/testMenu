@@ -1,0 +1,448 @@
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_006{font-family:Times,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Times,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Times,serif;font-size:19.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Times,serif;font-size:19.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Times,serif;font-size:451.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Times,serif;font-size:451.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Times,serif;font-size:42.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Times,serif;font-size:42.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Times,serif;font-size:99.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Times,serif;font-size:99.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Times,serif;font-size:27.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Times,serif;font-size:27.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_017{font-family:Times,serif;font-size:34.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Times,serif;font-size:34.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Times,serif;font-size:38.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Times,serif;font-size:38.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_016{font-family:Times,serif;font-size:51.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_016{font-family:Times,serif;font-size:51.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_018{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_018{font-family:Times,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Times,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Times,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_020{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_020{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_021{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_021{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_022{font-family:Times,serif;font-size:4.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_022{font-family:Times,serif;font-size:4.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_023{font-family:Times,serif;font-size:4.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_023{font-family:Times,serif;font-size:4.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_024{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_024{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_025{font-family:Times,serif;font-size:4.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_025{font-family:Times,serif;font-size:4.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_027{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_027{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_026{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: underline}
+div.cls_026{font-family:Times,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_028{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_028{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_029{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_029{font-family:Times,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_031{font-family:Times,serif;font-size:22.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_031{font-family:Times,serif;font-size:22.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_032{font-family:Times,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_032{font-family:Times,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_033{font-family:Times,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_033{font-family:Times,serif;font-size:15.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_034{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_034{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_030{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_030{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_035{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_035{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_036{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_036{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_037{font-family:Arial,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_037{font-family:Arial,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_039{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_039{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_042{font-family:Times,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_042{font-family:Times,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_038{font-family:Times,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_038{font-family:Times,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_040{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_040{font-family:Times,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_043{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_043{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_041{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_041{font-family:Times,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_044{font-family:Times,serif;font-size:94.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_044{font-family:Times,serif;font-size:94.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_045{font-family:Times,serif;font-size:42.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_045{font-family:Times,serif;font-size:42.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_046{font-family:Times,serif;font-size:2.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_046{font-family:Times,serif;font-size:2.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_047{font-family:Times,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_047{font-family:Times,serif;font-size:3.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_002{font-family:Times,serif;font-size:32.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Times,serif;font-size:32.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Courier New,serif;font-size:16.0px;color:rgb(0,120,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Courier New,serif;font-size:16.0px;color:rgb(0,120,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:18.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:18.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:"Calibri",serif;font-size:18.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:"Calibri",serif;font-size:18.1px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_048{font-family:Times,serif;font-size:1.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_048{font-family:Times,serif;font-size:1.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_049{font-family:Times,serif;font-size:2.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_049{font-family:Times,serif;font-size:2.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_050{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+div.cls_050{font-family:Times,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:italic;text-decoration: none}
+span.cls_052{font-family:Times,serif;font-size:74.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_052{font-family:Times,serif;font-size:74.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_051{font-family:Times,serif;font-size:68.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+div.cls_051{font-family:Times,serif;font-size:68.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_054{font-family:Times,serif;font-size:155.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_054{font-family:Times,serif;font-size:155.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_053{font-family:Times,serif;font-size:46.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_053{font-family:Times,serif;font-size:46.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_055{font-family:Times,serif;font-size:305.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_055{font-family:Times,serif;font-size:305.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_056{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_056{font-family:Times,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_057{font-family:Times,serif;font-size:35.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_057{font-family:Times,serif;font-size:35.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_058{font-family:Times,serif;font-size:22.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_058{font-family:Times,serif;font-size:22.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="3ea784d8-9666-11eb-8b25-0cc47a792c0a_id_3ea784d8-9666-11eb-8b25-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-480px;top:0px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:753.36px;top:460.76px" class="cls_006"><span class="cls_006">REPUBLIC OF ESTONIA</span></div>
+<div style="position:absolute;left:753.36px;top:477.56px" class="cls_006"><span class="cls_006">E-RESIDENCY</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-270px;top:550px;width:540px;height:960px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:310.32px;top:59.00px" class="cls_007"><span class="cls_007">•_.</span></div>
+<div style="position:absolute;left:317.04px;top:74.36px" class="cls_007"><span class="cls_007">III</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:1520px;width:960px;height:540px;border-style:outset;overflow:hidden">
+</div>
+<div style="position:absolute;left:50%;margin-left:-270px;top:1520px;width:540px;height:960px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:423.36px;top:348.92px" class="cls_008"><span class="cls_008">L</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:2490px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:179.28px;top:81.36px" class="cls_010"><span class="cls_010">1</span></div>
+<div style="position:absolute;left:116.88px;top:36.60px" class="cls_009"><span class="cls_009">e)</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:3040px;width:960px;height:540px;border-style:outset;overflow:hidden">
+</div>
+<div style="position:absolute;left:50%;margin-left:-270px;top:3040px;width:540px;height:960px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:487.68px;top:232.56px" class="cls_011"><span class="cls_011">r</span></div>
+<div style="position:absolute;left:485.28px;top:751.24px" class="cls_012"><span class="cls_012">J</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:4010px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:493.20px;top:184.20px" class="cls_013"><span class="cls_013">1</span></div>
+<div style="position:absolute;left:493.20px;top:205.80px" class="cls_013"><span class="cls_013">I</span></div>
+<div style="position:absolute;left:493.20px;top:227.40px" class="cls_013"><span class="cls_013">I</span></div>
+<div style="position:absolute;left:159.84px;top:385.32px" class="cls_013"><span class="cls_013">I</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-270px;top:4560px;width:540px;height:960px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:210.00px;top:51.00px" class="cls_009"><span class="cls_009">(</span></div>
+<div style="position:absolute;left:433.20px;top:530.96px" class="cls_017"><span class="cls_017">•</span></div>
+<div style="position:absolute;left:226.80px;top:623.00px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:216.48px;top:630.16px" class="cls_014"><span class="cls_014">0</span></div>
+<div style="position:absolute;left:226.56px;top:665.72px" class="cls_007"><span class="cls_007">0</span></div>
+<div style="position:absolute;left:273.84px;top:757.80px" class="cls_016"><span class="cls_016">S</span></div>
+<div style="position:absolute;left:223.92px;top:806.08px" class="cls_015"><span class="cls_015">s</span></div>
+<div style="position:absolute;left:252.48px;top:806.08px" class="cls_015"><span class="cls_015">■</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:5530px;width:960px;height:540px;border-style:outset;overflow:hidden">
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:5530px;width:960px;height:540px;border-style:outset;overflow:hidden">
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:5530px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:372.00px;top:0.00px" class="cls_018"><span class="cls_018">▪</span></div>
+<div style="position:absolute;left:381.12px;top:0.00px" class="cls_012"><span class="cls_012">•</span></div>
+<div style="position:absolute;left:495.84px;top:87.32px" class="cls_019"><span class="cls_019">I</span><span class="cls_012">COMPANY REGISTRATION PORTAL</span></div>
+<div style="position:absolute;left:610.80px;top:91.96px" class="cls_012"><span class="cls_012">—</span></div>
+<div style="position:absolute;left:397.44px;top:101.92px" class="cls_018"><span class="cls_018">e-Business Register</span></div>
+<div style="position:absolute;left:372.48px;top:107.20px" class="cls_018"><span class="cls_018">•</span></div>
+<div style="position:absolute;left:381.12px;top:107.20px" class="cls_018"><span class="cls_018">■</span></div>
+<div style="position:absolute;left:397.44px;top:107.20px" class="cls_018"><span class="cls_018">0,4..0 Rdeinie,eendIneemet.enSrstems</span></div>
+<div style="position:absolute;left:378.24px;top:147.08px" class="cls_020"><span class="cls_020">Welcome to the Company Registration Portal!</span></div>
+<div style="position:absolute;left:378.24px;top:161.56px" class="cls_012"><span class="cls_012">The Company Registration Portal Is an Internet environment Cal allows entrepreneurs to submit electronic</span></div>
+<div style="position:absolute;left:378.24px;top:167.32px" class="cls_012"><span class="cls_012">applications. documents and annual report to the Commercial Register. Applications can Only be Signed using</span></div>
+<div style="position:absolute;left:378.24px;top:173.08px" class="cls_012"><span class="cls_012">your ID-card or mobge-Ip</span></div>
+<div style="position:absolute;left:378.24px;top:191.48px" class="cls_020"><span class="cls_020">The services available on the Company Registration Portal</span></div>
+<div style="position:absolute;left:381.12px;top:207.40px" class="cls_021"><span class="cls_021">O </span><span class="cls_012"> The Company Registration Portal can be used lo establish new businesses, non-profit organizations,</span></div>
+<div style="position:absolute;left:392.64px;top:213.16px" class="cls_012"><span class="cls_012">state agencies or local government institutions, and to submit applications to amend, liquidate or delete</span></div>
+<div style="position:absolute;left:392.64px;top:218.92px" class="cls_012"><span class="cls_012">registry, data. It is also possible to publish the contact details of your data protection officer and</span></div>
+<div style="position:absolute;left:392.64px;top:224.68px" class="cls_012"><span class="cls_012">communicate them to the Data Protection inspectorate through this portal.</span></div>
+<div style="position:absolute;left:381.12px;top:232.24px" class="cls_018"><span class="cls_018">O </span><span class="cls_012">The company registration portal includes a-annual reporting envirnriment which can be used far</span></div>
+<div style="position:absolute;left:392.64px;top:241.00px" class="cls_012"><span class="cls_012">COmpiling, signing and submitting annual repOrte.</span></div>
+<div style="position:absolute;left:392.64px;top:251.56px" class="cls_012"><span class="cls_012">Potilical party members can see their party affiliation in the Company Registration Portal and </span><span class="cls_022">submit</span></div>
+<div style="position:absolute;left:392.64px;top:257.32px" class="cls_012"><span class="cls_012">applications to resign from the party- After providing a digital signature to the application, the applicant is</span></div>
+<div style="position:absolute;left:392.64px;top:263.08px" class="cls_012"><span class="cls_012">automatically removed from the political party's membership list.</span></div>
+<div style="position:absolute;left:655.92px;top:268.36px" class="cls_012"><span class="cls_012">NOTIFICATIONS</span></div>
+<div style="position:absolute;left:381.12px;top:274.12px" class="cls_012"><span class="cls_012">O  The company registration portal also includes a simple we</span></div>
+<div style="position:absolute;left:531.84px;top:274.12px" class="cls_012"><span class="cls_012">•tosed accounting software el-billing, which</span></div>
+<div style="position:absolute;left:392.64px;top:279.88px" class="cls_012"><span class="cls_012">helps the slant-ups and small business to organize their accounting comfortably.</span></div>
+<div style="position:absolute;left:656.40px;top:279.40px" class="cls_012"><span class="cls_012">We recommend you update your ID card software</span></div>
+<div style="position:absolute;left:656.40px;top:285.16px" class="cls_012"><span class="cls_012">30 software enables </span><span class="cls_023">yO. </span><span class="cls_012">to WM. your identity 0'0C-ironically — for</span></div>
+<div style="position:absolute;left:656.40px;top:290.92px" class="cls_012"><span class="cls_012">instance. when using MO Services Of </span><span class="cls_022">barata. </span><span class="cls_012">the government OF various</span></div>
+<div style="position:absolute;left:656.40px;top:296.68px" class="cls_012"><span class="cls_012">companies via the Internet. Von can also sign </span><span class="cls_022">CM...Media digitally.</span></div>
+<div style="position:absolute;left:656.40px;top:303.44px" class="cls_022"><span class="cls_022">The installation of ID software.</span></div>
+<div style="position:absolute;left:404.16px;top:310.12px" class="cls_012"><span class="cls_012">Fled out how to establish new businesses</span></div>
+<div style="position:absolute;left:656.40px;top:319.72px" class="cls_012"><span class="cls_012">Dear user or Windowa 10</span></div>
+<div style="position:absolute;left:404.16px;top:328.12px" class="cls_012"><span class="cls_012">Find Out 110w to access to your existing company</span></div>
+<div style="position:absolute;left:656.40px;top:325.24px" class="cls_012"><span class="cls_012">Windows 10 brings changes to using Company Registration Portal with</span></div>
+<div style="position:absolute;left:656.40px;top:331.24px" class="cls_012"><span class="cls_012">10-card. As ID-card support for web browser 'Edge" is still at</span></div>
+<div style="position:absolute;left:656.40px;top:337.00px" class="cls_012"><span class="cls_012">developing phase, we ask Wiodows 10 users to leg in and sign using</span></div>
+<div style="position:absolute;left:656.40px;top:342.76px" class="cls_012"><span class="cls_012">alternative browser or Mobile•ID</span></div>
+<div style="position:absolute;left:742.32px;top:370.96px" class="cls_018"><span class="cls_018">'</span></div>
+<div style="position:absolute;left:762.00px;top:370.96px" class="cls_018"><span class="cls_018">A</span></div>
+<div style="position:absolute;left:369.60px;top:401.80px" class="cls_012"><span class="cls_012">ENTERPRISE SEARCH</span></div>
+<div style="position:absolute;left:494.40px;top:402.28px" class="cls_012"><span class="cls_012">QUICK FIND</span></div>
+<div style="position:absolute;left:628.08px;top:401.56px" class="cls_012"><span class="cls_012">SUPPORT</span></div>
+<div style="position:absolute;left:369.60px;top:407.80px" class="cls_012"><span class="cls_012">IN THE INFORMATION SYSTEM</span></div>
+<div style="position:absolute;left:494.40px;top:411.12px" class="cls_024"><span class="cls_024">Eogistratdo</span><span class="cls_025">to</span></div>
+<div style="position:absolute;left:582.00px;top:412.12px" class="cls_027"><span class="cls_027">Name incffiry</span></div>
+<div style="position:absolute;left:628.08px;top:412.36px" class="cls_012"><span class="cls_012">E•rn ail: </span><span class="cls_027">ditelSartdediri2astff</span></div>
+<div style="position:absolute;left:373.92px;top:422.96px" class="cls_023"><span class="cls_023">Name or rogislry rode</span></div>
+<div style="position:absolute;left:494.40px;top:419.52px" class="cls_026"><span class="cls_026">EMTAK Intonation </span><span class="cls_012">SYINIE</span></div>
+<div style="position:absolute;left:582.00px;top:421.00px" class="cls_027"><span class="cls_027">Notaries</span></div>
+<div style="position:absolute;left:628.08px;top:420.52px" class="cls_012"><span class="cls_012">Phone: *372 669 6609 [available</span></div>
+<div style="position:absolute;left:494.40px;top:429.16px" class="cls_027"><span class="cls_027">Elect/olio State Gazette</span></div>
+<div style="position:absolute;left:582.00px;top:429.16px" class="cls_027"><span class="cls_027">Patent Office</span></div>
+<div style="position:absolute;left:628.08px;top:426.76px" class="cls_012"><span class="cls_012">9.00-1 7.00)</span></div>
+<div style="position:absolute;left:494.40px;top:436.84px" class="cls_027"><span class="cls_027">Tee, and Qusjoms Board</span></div>
+<div style="position:absolute;left:369.60px;top:448.12px" class="cls_012"><span class="cls_012">Copyright 10 Centre or Registers and Information Systeme I All rights. reserved I </span><span class="cls_027">Conditions oiling</span><span class="cls_012"> I Privacy </span><span class="cls_027"> Policy</span></div>
+<div style="position:absolute;left:647.28px;top:449.08px" class="cls_012"><span class="cls_012">1 </span><span class="cls_027">ProcessinpQf</span><span class="cls_012"> </span><span class="cls_027">personal </span><span class="cls_012">deJIA</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-270px;top:6080px;width:540px;height:960px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:146.88px;top:339.80px" class="cls_020"><span class="cls_020">I</span></div>
+<div style="position:absolute;left:150.96px;top:350.84px" class="cls_020"><span class="cls_020">■</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:7050px;width:960px;height:540px;border-style:outset;overflow:hidden">
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:7050px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:487.44px;top:6.96px" class="cls_011"><span class="cls_011">Eecome an e-resident</span></div>
+<div style="position:absolute;left:555.12px;top:7.20px" class="cls_011"><span class="cls_011">Start a company</span></div>
+<div style="position:absolute;left:609.36px;top:6.96px" class="cls_028"><span class="cls_028">Run </span><span class="cls_011">a company</span></div>
+<div style="position:absolute;left:661.20px;top:7.20px" class="cls_011"><span class="cls_011">Resources</span></div>
+<div style="position:absolute;left:699.60px;top:7.44px" class="cls_011"><span class="cls_011">Events</span></div>
+<div style="position:absolute;left:728.40px;top:7.20px" class="cls_011"><span class="cls_011">Marketplace</span></div>
+<div style="position:absolute;left:796.56px;top:8.44px" class="cls_029"><span class="cls_029">( APPLY</span><span class="cls_028"> NOW!</span></div>
+<div style="position:absolute;left:390.96px;top:43.28px" class="cls_031"><span class="cls_031">IMarketplace</span></div>
+<div style="position:absolute;left:389.04px;top:80.88px" class="cls_011"><span class="cls_011">You are viewing a beta version of our brand new Marketplace. We are working hard to build the best</span></div>
+<div style="position:absolute;left:765.36px;top:80.88px" class="cls_011"><span class="cls_011">How to join the marketplace? </span><span class="cls_025">—</span><span class="cls_011">)</span></div>
+<div style="position:absolute;left:389.52px;top:91.44px" class="cls_011"><span class="cls_011">possible product for our users and we appreciate your help in improving it - together we can </span><span class="cls_028">improve </span><span class="cls_011">our</span></div>
+<div style="position:absolute;left:389.52px;top:102.00px" class="cls_011"><span class="cls_011">Marketplace offerings for the benefit of e-residents and our community. Please leave you... Read more</span></div>
+<div style="position:absolute;left:387.60px;top:147.16px" class="cls_028"><span class="cls_028">Services si</span></div>
+<div style="position:absolute;left:431.28px;top:147.16px" class="cls_028"><span class="cls_028">Your company type N.,</span></div>
+<div style="position:absolute;left:503.76px;top:146.68px" class="cls_028"><span class="cls_028">Industry v</span></div>
+<div style="position:absolute;left:552.24px;top:149.16px" class="cls_032"><span class="cls_032">(</span></div>
+<div style="position:absolute;left:561.36px;top:147.16px" class="cls_028"><span class="cls_028">COM PARE</span></div>
+<div style="position:absolute;left:844.08px;top:146.68px" class="cls_028"><span class="cls_028">Sor</span></div>
+<div style="position:absolute;left:420.24px;top:185.88px" class="cls_033"><span class="cls_033">1DBS</span></div>
+<div style="position:absolute;left:533.04px;top:187.92px" class="cls_034"><span class="cls_034">PRIOLAUNCII</span></div>
+<div style="position:absolute;left:662.64px;top:191.28px" class="cls_024"><span class="cls_024">(jr) SMART-ID</span></div>
+<div style="position:absolute;left:789.36px;top:187.08px" class="cls_033"><span class="cls_033">I4AGRAT</span></div>
+<div style="position:absolute;left:338.16px;top:201.56px" class="cls_030"><span class="cls_030">r</span></div>
+<div style="position:absolute;left:396.72px;top:215.32px" class="cls_028"><span class="cls_028">DBS Accounting and Corporate</span></div>
+<div style="position:absolute;left:551.28px;top:214.32px" class="cls_011"><span class="cls_011">Priolaunch</span></div>
+<div style="position:absolute;left:680.88px;top:215.32px" class="cls_028"><span class="cls_028">Smart-ID</span></div>
+<div style="position:absolute;left:811.44px;top:215.32px" class="cls_028"><span class="cls_028">Ma g rat</span></div>
+<div style="position:absolute;left:426.00px;top:224.92px" class="cls_028"><span class="cls_028">Services</span></div>
+<div style="position:absolute;left:435.12px;top:275.52px" class="cls_024"><span class="cls_024">TuneUP</span></div>
+<div style="position:absolute;left:542.16px;top:272.16px" class="cls_034"><span class="cls_034">DAFIOW KLUB-</span></div>
+<div style="position:absolute;left:660.24px;top:271.64px" class="cls_019"><span class="cls_019">UPLEGAL</span></div>
+<div style="position:absolute;left:789.84px;top:272.28px" class="cls_035"><span class="cls_035">GATE </span><span class="cls_036">T</span><span class="cls_037">❑</span><span class="cls_036"> </span><span class="cls_035">BALTICS</span></div>
+<div style="position:absolute;left:421.20px;top:300.04px" class="cls_028"><span class="cls_028">TuneUp OU</span></div>
+<div style="position:absolute;left:542.64px;top:300.28px" class="cls_028"><span class="cls_028">Danovy klub s.r.o.</span></div>
+<div style="position:absolute;left:681.84px;top:300.28px" class="cls_028"><span class="cls_028">UPLegal</span></div>
+<div style="position:absolute;left:796.56px;top:300.04px" class="cls_028"><span class="cls_028">GATE TO BALTICS</span></div>
+<div style="position:absolute;left:425.52px;top:364.08px" class="cls_011"><span class="cls_011">"</span></div>
+<div style="position:absolute;left:429.84px;top:364.08px" class="cls_011"><span class="cls_011">j</span></div>
+<div style="position:absolute;left:438.96px;top:364.08px" class="cls_011"><span class="cls_011">134</span></div>
+<div style="position:absolute;left:675.60px;top:355.72px" class="cls_039"><span class="cls_039">COG('</span><span class="cls_025">PLACES</span></div>
+<div style="position:absolute;left:805.20px;top:358.16px" class="cls_042"><span class="cls_042">Avokaado•</span></div>
+<div style="position:absolute;left:425.04px;top:369.84px" class="cls_011"><span class="cls_011">Dalanta</span></div>
+<div style="position:absolute;left:546.00px;top:356.88px" class="cls_038"><span class="cls_038">`:tiled </span><span class="cls_030">Wing</span></div>
+<div style="position:absolute;left:426.96px;top:384.76px" class="cls_028"><span class="cls_028">Oa la nta</span></div>
+<div style="position:absolute;left:549.36px;top:384.76px" class="cls_028"><span class="cls_028">SafetyWing</span></div>
+<div style="position:absolute;left:676.56px;top:384.76px" class="cls_028"><span class="cls_028">GoGoPlaces</span></div>
+<div style="position:absolute;left:807.12px;top:384.76px" class="cls_028"><span class="cls_028">Avokaado</span></div>
+<div style="position:absolute;left:438.48px;top:443.64px" class="cls_036"><span class="cls_036">115</span></div>
+<div style="position:absolute;left:463.44px;top:443.64px" class="cls_036"><span class="cls_036">R</span></div>
+<div style="position:absolute;left:544.56px;top:443.64px" class="cls_036"><span class="cls_036">COMISTAR</span></div>
+<div style="position:absolute;left:677.04px;top:435.76px" class="cls_040"><span class="cls_040">JUSCUTUM</span></div>
+<div style="position:absolute;left:789.36px;top:441.64px" class="cls_043"><span class="cls_043">V</span><span class="cls_024">I Your company</span></div>
+<div style="position:absolute;left:659.76px;top:445.60px" class="cls_040"><span class="cls_040">sir </span><span class="cls_041">LEGAL ENGINEERING</span></div>
+<div style="position:absolute;left:790.32px;top:449.40px" class="cls_035"><span class="cls_035">V in Estonia</span></div>
+<div style="position:absolute;left:338.16px;top:457.20px" class="cls_011"><span class="cls_011">L</span></div>
+<div style="position:absolute;left:414.96px;top:468.72px" class="cls_011"><span class="cls_011">Comistar </span><span class="cls_028">Finland</span></div>
+<div style="position:absolute;left:552.72px;top:469.72px" class="cls_028"><span class="cls_028">Comistar</span></div>
+<div style="position:absolute;left:679.92px;top:469.72px" class="cls_028"><span class="cls_028">Juscutum</span></div>
+<div style="position:absolute;left:787.92px;top:469.72px" class="cls_028"><span class="cls_028">Your Company in Estonia</span></div>
+<div style="position:absolute;left:511.44px;top:510.24px" class="cls_024"><span class="cls_024">New</span></div>
+<div style="position:absolute;left:559.92px;top:527.80px" class="cls_028"><span class="cls_028">•</span></div>
+<div style="position:absolute;left:419.76px;top:534.52px" class="cls_028"><span class="cls_028">VW</span></div>
+<div style="position:absolute;left:539.76px;top:534.04px" class="cls_028"><span class="cls_028">FINANCE PLUS</span></div>
+<div style="position:absolute;left:810.48px;top:533.80px" class="cls_028"><span class="cls_028">iJ</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:7600px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:176.40px;top:254.60px" class="cls_030"><span class="cls_030">r</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:8150px;width:960px;height:540px;border-style:outset;overflow:hidden">
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:8150px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:136.08px;top:0.00px" class="cls_044"><span class="cls_044">1</span></div>
+<div style="position:absolute;left:97.92px;top:245.52px" class="cls_045"><span class="cls_045">nn</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:8700px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:195.60px;top:378.16px" class="cls_046"><span class="cls_046">1</span></div>
+<div style="position:absolute;left:196.56px;top:378.16px" class="cls_046"><span class="cls_046">■</span></div>
+<div style="position:absolute;left:216.96px;top:378.16px" class="cls_046"><span class="cls_046">■</span></div>
+<div style="position:absolute;left:241.92px;top:378.16px" class="cls_046"><span class="cls_046">•</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-270px;top:9250px;width:540px;height:960px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:84.96px;top:376.44px" class="cls_047"><span class="cls_047">•  .</span></div>
+<div style="position:absolute;left:95.04px;top:376.68px" class="cls_047"><span class="cls_047">•</span></div>
+<div style="position:absolute;left:101.76px;top:376.68px" class="cls_047"><span class="cls_047">6</span></div>
+<div style="position:absolute;left:109.44px;top:376.68px" class="cls_047"><span class="cls_047">•   •• ••</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:10220px;width:960px;height:540px;border-style:outset;overflow:hidden">
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:10220px;width:960px;height:540px;border-style:outset;overflow:hidden">
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:10220px;width:960px;height:540px;border-style:outset;overflow:hidden">
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:10220px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="3ea784d8-9666-11eb-8b25-0cc47a792c0a_id_3ea784d8-9666-11eb-8b25-0cc47a792c0a_files/background24.jpg" width=960 height=540></div>
+<div style="position:absolute;left:473.93px;top:366.60px" class="cls_002"><span class="cls_002">≠</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:10770px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="3ea784d8-9666-11eb-8b25-0cc47a792c0a_id_3ea784d8-9666-11eb-8b25-0cc47a792c0a_files/background25.jpg" width=960 height=540></div>
+<div style="position:absolute;left:701.98px;top:198.07px" class="cls_003"><span class="cls_003">≠</span></div>
+<div style="position:absolute;left:492.05px;top:309.94px" class="cls_004"><span class="cls_004">→</span></div>
+<div style="position:absolute;left:256.32px;top:370.82px" class="cls_005"><span class="cls_005">↓</span></div>
+<div style="position:absolute;left:720.12px;top:370.82px" class="cls_005"><span class="cls_005">↓</span></div>
+<div style="position:absolute;left:492.05px;top:435.74px" class="cls_004"><span class="cls_004">→</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:11320px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:201.12px;top:291.28px" class="cls_015"><span class="cls_015">1</span></div>
+<div style="position:absolute;left:203.28px;top:359.96px" class="cls_006"><span class="cls_006">L</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:11870px;width:960px;height:540px;border-style:outset;overflow:hidden">
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:11870px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:623.28px;top:81.76px" class="cls_015"><span class="cls_015">Company List</span></div>
+<div style="position:absolute;left:624.72px;top:100.52px" class="cls_048"><span class="cls_048">-</span></div>
+<div style="position:absolute;left:628.80px;top:100.52px" class="cls_048"><span class="cls_048">-</span></div>
+<div style="position:absolute;left:633.36px;top:100.52px" class="cls_048"><span class="cls_048">W</span></div>
+<div style="position:absolute;left:639.12px;top:100.52px" class="cls_048"><span class="cls_048">Y</span></div>
+<div style="position:absolute;left:645.84px;top:100.52px" class="cls_048"><span class="cls_048">-</span></div>
+<div style="position:absolute;left:649.68px;top:100.52px" class="cls_048"><span class="cls_048">-</span></div>
+<div style="position:absolute;left:653.76px;top:100.52px" class="cls_048"><span class="cls_048">-</span></div>
+<div style="position:absolute;left:658.80px;top:100.52px" class="cls_048"><span class="cls_048">-</span></div>
+<div style="position:absolute;left:629.04px;top:123.24px" class="cls_032"><span class="cls_032">Help Ev,per. Oii</span></div>
+<div style="position:absolute;left:681.36px;top:123.24px" class="cls_032"><span class="cls_032">Ck.cledlco Oii</span></div>
+<div style="position:absolute;left:736.56px;top:123.24px" class="cls_032"><span class="cls_032">1neck.11</span></div>
+<div style="position:absolute;left:787.44px;top:123.24px" class="cls_032"><span class="cls_032">OS, 00</span></div>
+<div style="position:absolute;left:732.24px;top:126.80px" class="cls_032"><span class="cls_032">ie.:MC.11y </span><span class="cls_025">013</span></div>
+<div style="position:absolute;left:746.16px;top:133.36px" class="cls_049"><span class="cls_049">nrt•••:Ssre</span></div>
+<div style="position:absolute;left:782.64px;top:129.04px" class="cls_049"><span class="cls_049">Hemmen 7.n.lcar</span></div>
+<div style="position:absolute;left:733.20px;top:141.52px" class="cls_049"><span class="cls_049">•</span></div>
+<div style="position:absolute;left:743.28px;top:140.80px" class="cls_049"><span class="cls_049">...am</span></div>
+<div style="position:absolute;left:784.56px;top:141.52px" class="cls_049"><span class="cls_049">1</span></div>
+<div style="position:absolute;left:786.96px;top:141.52px" class="cls_049"><span class="cls_049">1</span></div>
+<div style="position:absolute;left:789.84px;top:141.28px" class="cls_049"><span class="cls_049">•</span></div>
+<div style="position:absolute;left:793.68px;top:141.28px" class="cls_049"><span class="cls_049">•</span></div>
+<div style="position:absolute;left:795.60px;top:141.28px" class="cls_049"><span class="cls_049">•</span></div>
+<div style="position:absolute;left:800.40px;top:141.04px" class="cls_049"><span class="cls_049">■•</span></div>
+<div style="position:absolute;left:802.80px;top:141.04px" class="cls_049"><span class="cls_049">•</span></div>
+<div style="position:absolute;left:806.64px;top:140.56px" class="cls_049"><span class="cls_049">•</span></div>
+<div style="position:absolute;left:731.76px;top:145.60px" class="cls_049"><span class="cls_049">•</span></div>
+<div style="position:absolute;left:737.52px;top:145.60px" class="cls_049"><span class="cls_049">Arlo</span></div>
+<div style="position:absolute;left:746.16px;top:145.36px" class="cls_049"><span class="cls_049">n11</span></div>
+<div style="position:absolute;left:754.32px;top:145.36px" class="cls_049"><span class="cls_049">m</span></div>
+<div style="position:absolute;left:757.68px;top:145.36px" class="cls_049"><span class="cls_049">ic</span></div>
+<div style="position:absolute;left:738.48px;top:163.08px" class="cls_032"><span class="cls_032">14624</span></div>
+<div style="position:absolute;left:631.92px;top:170.76px" class="cls_032"><span class="cls_032">Coyirtnrve</span></div>
+<div style="position:absolute;left:650.16px;top:170.76px" class="cls_032"><span class="cls_032">W</span></div>
+<div style="position:absolute;left:676.56px;top:170.76px" class="cls_032"><span class="cls_032">MANRESA F</span></div>
+<div style="position:absolute;left:698.16px;top:170.76px" class="cls_032"><span class="cls_032">ffENTS</span></div>
+<div style="position:absolute;left:736.56px;top:170.76px" class="cls_032"><span class="cls_032">Exond 00</span></div>
+<div style="position:absolute;left:786.00px;top:170.76px" class="cls_032"><span class="cls_032">Cerrer.Oil</span></div>
+<div style="position:absolute;left:634.32px;top:176.56px" class="cls_049"><span class="cls_049">.O</span></div>
+<div style="position:absolute;left:636.72px;top:176.56px" class="cls_049"><span class="cls_049">W</span></div>
+<div style="position:absolute;left:642.48px;top:176.56px" class="cls_046"><span class="cls_046">m.o./Cr</span></div>
+<div style="position:absolute;left:631.44px;top:187.32px" class="cls_032"><span class="cls_032">• ...■■•%...</span></div>
+<div style="position:absolute;left:640.08px;top:206.60px" class="cls_030"><span class="cls_030">Oh</span></div>
+<div style="position:absolute;left:631.92px;top:214.28px" class="cls_020"><span class="cls_020">G</span></div>
+<div style="position:absolute;left:650.16px;top:214.28px" class="cls_050"><span class="cls_050">CO</span></div>
+<div style="position:absolute;left:677.04px;top:214.28px" class="cls_020"><span class="cls_020">Cop. </span><span class="cls_032">11 5,11,11.1:101.,</span></div>
+<div style="position:absolute;left:630.48px;top:223.08px" class="cls_032"><span class="cls_032">...no, Ton</span></div>
+<div style="position:absolute;left:624.72px;top:235.08px" class="cls_032"><span class="cls_032">11</span></div>
+<div style="position:absolute;left:637.20px;top:258.60px" class="cls_032"><span class="cls_032">Cr1</span></div>
+<div style="position:absolute;left:641.52px;top:258.60px" class="cls_032"><span class="cls_032">M</span></div>
+<div style="position:absolute;left:642.00px;top:258.60px" class="cls_032"><span class="cls_032">n</span></div>
+<div style="position:absolute;left:646.32px;top:258.60px" class="cls_032"><span class="cls_032">C</span></div>
+<div style="position:absolute;left:629.04px;top:265.32px" class="cls_032"><span class="cls_032">Cornet Trod. end</span></div>
+<div style="position:absolute;left:679.92px;top:265.32px" class="cls_032"><span class="cls_032">RSH Irlvneriorwl</span></div>
+<div style="position:absolute;left:631.92px;top:269.64px" class="cls_032"><span class="cls_032">01.1.er1.110 011</span></div>
+<div style="position:absolute;left:684.72px;top:269.16px" class="cls_032"><span class="cls_032">Infarm111.</span></div>
+<div style="position:absolute;left:679.92px;top:273.48px" class="cls_032"><span class="cls_032">Ted-0044k, 00</span></div>
+<div style="position:absolute;left:641.52px;top:285.96px" class="cls_032"><span class="cls_032">..v...</span></div>
+<div style="position:absolute;left:688.08px;top:286.20px" class="cls_032"><span class="cls_032">..11.44</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-270px;top:12420px;width:540px;height:960px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:273.60px;top:24.16px" class="cls_052"><span class="cls_052">C</span></div>
+<div style="position:absolute;left:240.72px;top:155.20px" class="cls_014"><span class="cls_014">1</span></div>
+<div style="position:absolute;left:273.60px;top:141.76px" class="cls_052"><span class="cls_052">C</span></div>
+<div style="position:absolute;left:211.44px;top:193.12px" class="cls_051"><span class="cls_051">r</span></div>
+<div style="position:absolute;left:439.44px;top:253.96px" class="cls_054"><span class="cls_054">I</span></div>
+<div style="position:absolute;left:273.60px;top:380.80px" class="cls_052"><span class="cls_052">C</span></div>
+<div style="position:absolute;left:240.72px;top:630.88px" class="cls_014"><span class="cls_014">1</span></div>
+<div style="position:absolute;left:216.48px;top:670.96px" class="cls_052"><span class="cls_052">q</span></div>
+<div style="position:absolute;left:240.72px;top:749.68px" class="cls_014"><span class="cls_014">1</span></div>
+<div style="position:absolute;left:273.60px;top:737.44px" class="cls_052"><span class="cls_052">C</span></div>
+<div style="position:absolute;left:211.20px;top:803.60px" class="cls_053"><span class="cls_053">o e</span></div>
+<div style="position:absolute;left:433.20px;top:548.44px" class="cls_055"><span class="cls_055">II</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:13390px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:853.20px;top:295.44px" class="cls_011"><span class="cls_011">I_</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:13940px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:683.28px;top:142.80px" class="cls_011"><span class="cls_011">scribe to</span></div>
+<div style="position:absolute;left:686.64px;top:149.04px" class="cls_011"><span class="cls_011">letter</span></div>
+<div style="position:absolute;left:739.92px;top:183.88px" class="cls_056"><span class="cls_056">I</span></div>
+<div style="position:absolute;left:691.68px;top:216.60px" class="cls_047"><span class="cls_047">•</span></div>
+<div style="position:absolute;left:702.48px;top:216.84px" class="cls_047"><span class="cls_047">we. arm,.</span></div>
+<div style="position:absolute;left:733.68px;top:213.00px" class="cls_047"><span class="cls_047">G</span></div>
+<div style="position:absolute;left:680.88px;top:237.28px" class="cls_046"><span class="cls_046">=</span></div>
+<div style="position:absolute;left:696.72px;top:237.28px" class="cls_046"><span class="cls_046">eVae■•• Yno •</span></div>
+<div style="position:absolute;left:730.80px;top:230.32px" class="cls_015"><span class="cls_015">111</span></div>
+<div style="position:absolute;left:740.40px;top:229.84px" class="cls_015"><span class="cls_015">=7</span></div>
+<div style="position:absolute;left:680.88px;top:237.84px" class="cls_011"><span class="cls_011">-</span></div>
+<div style="position:absolute;left:680.64px;top:244.04px" class="cls_030"><span class="cls_030">r</span><span class="cls_025">,</span></div>
+<div style="position:absolute;left:685.44px;top:245.88px" class="cls_032"><span class="cls_032">Z</span></div>
+<div style="position:absolute;left:689.28px;top:244.40px" class="cls_032"><span class="cls_032">.......</span><span class="cls_025">•••</span><span class="cls_032">••.m</span></div>
+<div style="position:absolute;left:758.16px;top:245.08px" class="cls_057"><span class="cls_057">•</span></div>
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:14490px;width:960px;height:540px;border-style:outset;overflow:hidden">
+</div>
+<div style="position:absolute;left:50%;margin-left:-480px;top:14490px;width:960px;height:540px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:426.24px;top:240.32px" class="cls_058"><span class="cls_058">REPUBLIC OF ESTONIA</span></div>
+<div style="position:absolute;left:426.24px;top:267.68px" class="cls_058"><span class="cls_058">E-RESIDENCY</span></div>
+</div>
+
+</body>
+</html>
